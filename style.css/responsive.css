@@ -41,8 +41,6 @@
       "location ...";
   }
 
-}
-
 @media (min-width: 700px) and (max-width: 1200px) {
   .container {
     max-width: 560px;
