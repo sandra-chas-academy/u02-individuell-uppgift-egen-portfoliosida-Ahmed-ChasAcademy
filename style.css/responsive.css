@@ -1,0 +1,81 @@
+@media (min-width: 250px) and (max-width: 700px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: var(--icon-large);
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    
+    }
+    .logo {
+      display: inline-block;
+    }
+
+    .head-bar {
+      align-items: start;
+    }
+  }
+
+  .work {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      "position status"
+      "company date"
+      "location ...";
+  }
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .container {
+    max-width: 560px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    max-width: 1024px;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hamburger {
+    display: none;
+  }
+}
