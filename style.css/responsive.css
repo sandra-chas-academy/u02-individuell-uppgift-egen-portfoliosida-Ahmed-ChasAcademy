@@ -17,7 +17,16 @@
   }
 
   .menu-list {
-    display: none;
+    flex-direction: column;
+    
+    }
+    .logo {
+      display: inline-block;
+    }
+
+    .head-bar {
+      align-items: start;
+    }
   }
 
   .work {
